@@ -33,11 +33,6 @@ ul{
         color: white;
         color:blue;
     }
-
-
-
-
-
 .tarjetas{
  
     flex-direction: row;
@@ -65,4 +60,19 @@ img{
 .card-text{
     width: 260px;
     height: 80px;
+}
+
+@media (max-width:750px){
+
+    .card:nth-child(1){
+        width: calc(33%);
+              
+        }
+    .card:nth-child(2){
+        width: calc(33%)
+        }
+
+    .card:nth-child(3){
+        width: calc(33%)
+        }
 }
