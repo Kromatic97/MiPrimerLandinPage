@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+    margin: auto;
+}
+
+nav{
+    padding: 1em;
+    color:white;
+    color:blue;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: flex-start;
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    list-style: none;
+    padding-top: 30px;
+
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+        color:blue;
+    }
+
+
+
+
+
+.tarjetas{
+ 
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+    
+}
+
+.card{
+    width: 250px;
+    height: 500px;
+    }
+
+.card-body{
+    padding: 3px;
+}
+
+img{
+    width: 286px;
+    height: 259px;
+}
+.card-text{
+    width: 260px;
+    height: 80px;
+}
